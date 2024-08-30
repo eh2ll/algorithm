@@ -1,6 +1,8 @@
 # algorithm
 
-## target algorithm to master
+- baekjoon : eh2ll
+
+## study study algorithm
 
 1. segment tree
 
