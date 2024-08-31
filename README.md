@@ -8,7 +8,8 @@
 
 2. LCA
 
-3. KMP, manachar
+3. KMP, manachar, trie
+- trie : 14725, 16934
 
 4. pbds
 
