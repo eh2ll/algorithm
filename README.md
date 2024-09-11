@@ -10,24 +10,25 @@
 
 ## study study algorithm
 
-1. Segment tree
+1. Segment tree, Lazy, Fenwick
 - Lazy : 10999
 
 2. LCA
 - LCA : 3584
 
-3. KMP, Manachar, Trie
+3. KMP, Manachar, Trie, Suffix, Aho-Corasick
 - Trie : 14725, 16934
 
 4. PBDS
 - PBDS : 1572, 2517
 
-5. CCW, Geometry
+5. CCW, Geometry, Convex hull
 
 6. Sprague–grundy
 
-7. Flow
+7. Flow, MCMF
 
 8. Shortest path - spfa
+- spfa : 1219
 
-9. ...
+9. Math, euler
