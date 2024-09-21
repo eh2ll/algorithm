@@ -29,7 +29,7 @@
 7. Flow, MCMF
 
 8. Shortest path
-- &emsp;spfa : 1219
+&emsp; - spfa : 1219
 - &emsp;bellman-ford : 1738
 
 9. Math, euler
