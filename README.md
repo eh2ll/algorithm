@@ -11,16 +11,16 @@
 ## study study algorithm
 
 1. Segment tree, Lazy, Fenwick
-- Lazy : 10999
+&emsp- Lazy : 10999
 
 2. LCA
-- LCA : 3584
+&emsp- LCA : 3584
 
 3. KMP, Manachar, Trie, Suffix, Aho-Corasick
-- Trie : 14725, 16934
+&emsp- Trie : 14725, 16934
 
 4. PBDS
-- PBDS : 1572, 2517
+&emsp- PBDS : 1572, 2517
 
 5. CCW, Geometry, Convex hull
 
@@ -28,7 +28,15 @@
 
 7. Flow, MCMF
 
-8. Shortest path - spfa
-- spfa : 1219
+8. Shortest path
+&emsp- spfa : 1219
+&emsp- bellman-ford : 1738
 
 9. Math, euler
+
+```bash
+find . -type f ! -name "*cpp*" -delete
+git add '**/*.cpp'
+git reset HEAD^ -- 90-99/tempCodeRunnerFile.cpp
+
+```
