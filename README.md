@@ -14,13 +14,13 @@
 - &emsp;Lazy : 10999
 
 2. LCA
-- (&emsp;)LCA : 3584
+- &emsp;LCA : 3584
 
 3. KMP, Manachar, Trie, Suffix, Aho-Corasick
-- (&emsp;)- Trie : 14725, 16934
+- &emsp;- Trie : 14725, 16934
 
 4. PBDS
-- (&emsp;)PBDS : 1572, 2517
+- &emsp;PBDS : 1572, 2517
 
 5. CCW, Geometry, Convex hull
 
@@ -29,8 +29,8 @@
 7. Flow, MCMF
 
 8. Shortest path
-- (&emsp;)spfa : 1219
-- (&emsp;)bellman-ford : 1738
+- &emsp;spfa : 1219
+- &emsp;bellman-ford : 1738
 
 9. Math, euler
 
