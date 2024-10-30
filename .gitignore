@@ -1,5 +1,7 @@
 # Ignore all files in algorithm folder and its subdirectories
-algorithm/*/*
+*/*
 
 # But do not ignore .cpp files
-!algorithm/*/bj[0-9]*.cpp
+!*/bj[0-9]*.cpp
+!README.md
+!sample_code/
