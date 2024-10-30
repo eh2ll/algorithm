@@ -10,29 +10,48 @@
 
 ## study study algorithm
 
-1. Segment tree, Lazy, Fenwick
+1. Data Structure & Query
+- &emsp;Segtree : 1517
 - &emsp;Lazy : 10999
-
-2. LCA
-- &emsp;LCA : 3584
-
-3. KMP, Manachar, Trie, Suffix, Aho-Corasick
-- &emsp;Trie : 14725, 16934
-
-4. PBDS
+- &emsp;금광 : 15561
+- &emsp;Fenwick :
+- &emsp;Union-Find :  
+- &emsp;Mo's : 
+- &emsp;Sqrt Decomposition : 
 - &emsp;PBDS : 1572, 2517
 
-5. CCW, Geometry, Convex hull
+2. Graph
+- &emsp;Dijkstra : 
+- &emsp;Bellman-Ford : 1738
+- &emsp;LCA : 3584, 1761
+- &emsp;SCC :
+- &emsp;2-SAT : 
 
-6. Sprague–grundy
+3. String
+- &emsp;KMP : 
+- &emsp;Trie : 14725, 16934
+- &emsp;Manachar : 
+- &emsp;Suffix Array : 
+- &emsp;LCP Array : 
+- &emsp;Aho-Corasick : 
 
-7. Flow, MCMF
+4. Geometry
+- &emsp;CCW : 11758, 25308
+- &emsp;선분 교차 : 17387
+- &emsp;Convex Hull : 
 
-8. Shortest path
-- &emsp;spfa : 1219
-- &emsp;bellman-ford : 1738
+5. Sprague–grundy
 
-9. Math, euler
+6. Network Flow
+- &emsp;Basic : 
+- &emsp;Dinic : 
+- &emsp;MCMF : 
+- &emsp;Bipartite matching : 
+
+7. Math
+- &emsp;Linear Sieve : 
+- &emsp;Extended Euclidean : 
+- &emsp;Binomial Coefficient : 
 
 - - -
 
