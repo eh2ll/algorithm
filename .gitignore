@@ -3,5 +3,9 @@
 
 # But do not ignore .cpp files
 !*/bj[0-9]*.cpp
+
+# Track README.md file
 !README.md
-!sample_code/
+
+# Track everything in sample_code folder
+!sample_code/*
