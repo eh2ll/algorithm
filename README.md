@@ -12,7 +12,7 @@
 
 1. Data Structure & Query
 - &emsp;Segtree : 1517
-- &emsp;Lazy : 10999
+- &emsp;Lazy : 10999, 1395
 - &emsp;금광 : 15561
 - &emsp;Fenwick :
 - &emsp;Union-Find :  
@@ -24,12 +24,12 @@
 - &emsp;Dijkstra : 
 - &emsp;Bellman-Ford : 1738
 - &emsp;LCA : 3584, 1761
-- &emsp;SCC :
+- &emsp;SCC : 2150
 - &emsp;2-SAT : 
 
 3. String
 - &emsp;KMP : 
-- &emsp;Trie : 14725, 16934
+- &emsp;Trie : 14725, 16934, 5670
 - &emsp;Manachar : 
 - &emsp;Suffix Array : 
 - &emsp;LCP Array : 
@@ -37,21 +37,26 @@
 
 4. Geometry
 - &emsp;CCW : 11758, 25308
-- &emsp;선분 교차 : 17387
+- &emsp;선분 교차 : 17387, 2162
 - &emsp;Convex Hull : 
 
 5. Sprague–grundy
 
 6. Network Flow
-- &emsp;Basic : 
+- &emsp;Basic : 11375, 6086, 2188
 - &emsp;Dinic : 
-- &emsp;MCMF : 
-- &emsp;Bipartite matching : 
+- &emsp;MCMF : 1420
+- &emsp;Bipartite matching : 9576, 11376
 
 7. Math
-- &emsp;Linear Sieve : 
+- &emsp;Linear Sieve : 11689
 - &emsp;Extended Euclidean : 
 - &emsp;Binomial Coefficient : 
+
+8. DP
+- &emsp;CHT :
+- &emsp;DnC :
+- &emsp;Kitamasa : 
 
 - - -
 
