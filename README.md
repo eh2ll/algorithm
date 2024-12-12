@@ -4,9 +4,9 @@
 
 ## study blog
 
-- [justicehui] (https://justicehui.github.io/tutorial/)
-- [BaaaaaaaaaaarkingDog] (https://blog.encrypted.gg/category/%EA%B0%95%EC%A2%8C/%EC%8B%A4%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
-- [kks227] (https://m.blog.naver.com/PostList.naver?blogId=kks227&categoryName=%EB%8C%80%ED%9A%8C%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98&categoryNo=299&logCode=0)
+- [justicehui](https://justicehui.github.io/tutorial/)
+- [BaaaaaaaaaaarkingDog](https://blog.encrypted.gg/category/%EA%B0%95%EC%A2%8C/%EC%8B%A4%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
+- [kks227](https://m.blog.naver.com/PostList.naver?blogId=kks227&categoryName=%EB%8C%80%ED%9A%8C%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98&categoryNo=299&logCode=0)
 
 ## study study algorithm
 
