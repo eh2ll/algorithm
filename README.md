@@ -38,7 +38,7 @@
 4. Geometry
 - &emsp;CCW : 11758, 25308
 - &emsp;선분 교차 : 17387, 2162
-- &emsp;Convex Hull : 1708
+- &emsp;Convex Hull : 1708, 2699
 
 5. Sprague–grundy
 
