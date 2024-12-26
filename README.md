@@ -26,6 +26,7 @@
 - &emsp;LCA : 3584, 1761
 - &emsp;SCC : 2150
 - &emsp;2-SAT : 
+- &emsp;Euler-Circuit : 
 
 3. String
 - &emsp;KMP : 
@@ -50,13 +51,16 @@
 
 7. Math
 - &emsp;Linear Sieve : 11689
-- &emsp;Extended Euclidean : 
+- &emsp;Extended Euclidean : 23062
 - &emsp;Binomial Coefficient : 
 
 8. DP
 - &emsp;CHT :
 - &emsp;DnC :
 - &emsp;Kitamasa : 
+
+9. Extra
+- &emsp;Sweeping : 2261
 
 - - -
 
