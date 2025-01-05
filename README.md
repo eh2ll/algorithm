@@ -30,7 +30,7 @@
 
 3. String
 - &emsp;KMP : 
-- &emsp;Trie : 14725, 16934, 5670
+- &emsp;Trie : 14725, 16934, 5670, 7432
 - &emsp;Manachar : 
 - &emsp;Suffix Array : 
 - &emsp;LCP Array : 
