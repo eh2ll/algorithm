@@ -3,71 +3,48 @@
 using namespace std;
 using ll = long long;
 
-ll bor[10];
+ll cnt[10];
 
 int main(){
     ios::sync_with_stdio(0);
     cin.tie(0);
 
-    string N; cin >> N;
-
-    int sz = N.size();
-    for(int i = 1; i < 10; i += 1){
-        cout << i << '\n' << "+ ";
-        for(int j = sz - 1; j >= 0; j -= 1){
-            if(N[j] - '0' < i && j == 0) continue;
-            ll cnt = 1;
-            if(N[j] - '0' >= i){
-                for(int k = sz - 1; k >= 0; k -= 1){
-                    if(j == k) continue;
-                    cnt *= N[k] - '0' + 1;
+    ll N; cin >> N;
+    for(int digit = 1; digit <= 9; digit += 1){
+        for(ll idx = 10; idx / 10 <= N; idx *= 10){
+            ll num = N / idx;
+            if((N % idx) >= digit * (idx / 10)){
+                // cnt[digit] += (num + 1) * (idx / 10);
+                cnt[digit] += (num + 1) * (idx / 10);
+                if(idx >= 100 && (N % idx) / (idx / 10) == digit){
+                    cnt[digit] -= (idx / 10);
+                    cnt[digit] += (N % (idx / 10) + 1);
+                }
+                else if(idx > N){
+                    cnt[digit] -= (num + 1) * (idx / 10);
+                    cnt[digit] += idx / 10;
                 }
             }
             else{
-                for(int k = sz - 1; k >= 0; k -= 1){
-                    if(j == k) continue;
-                    if(k == j - 1){
-                        cnt *= N[k] - '0' + 1 - 1;
-                        continue;
-                    }
-                    cnt *= N[k] - '0' + 1;
-                }
+                cnt[digit] += num * (idx / 10);
             }
-            bor[i] += cnt;
-            cout << cnt << ' ';
+            // cout << "cnt[" << digit << "] = " << cnt[digit] << ' ' << (num + 1) * (idx / 10) << "\n";
         }
-        cout << '\n';
+    }
+    int digit = 0;
+    for(ll idx = 10; idx <= N; idx *= 10){
+        if(idx > N) break;
+        cnt[digit] += (N / idx) * (idx / 10);
+        if(idx >= 100 && (N % idx) / (idx / 10) == digit){
+            cnt[digit] -= (idx / 10);
+            cnt[digit] += (N % (idx / 10) + 1);
+        }
     }
 
-    for(int j = sz - 1; j >= 0; j -= 1){
-        ll cnt = 1;
-        ll tmp = 0;
-        for(int k = sz - 1; k >= 0; k -= 1){
-            if(j == k){
-                tmp = cnt;
-                continue;
-            }
-            cnt *= N[k] - '0' + 1;
-        }
-        bor[0] += cnt - tmp;
+    for(int digit = 0; digit <= 9; digit += 1){
+        cout << cnt[digit] << " ";
     }
-    
-
-    for(int i = 0; i < 10; i += 1) cout << bor[i] << ' ';
-    bor[0] = -1;
+    cout << "\n";
 
     return 0;
 }
-/*
-499999999
-539999999
-542999999
-543199999
-543209999
-543211999
-543212299
-543212339
-543212345
-
-자릿수
-*/
